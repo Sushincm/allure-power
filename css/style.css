@@ -1,0 +1,262 @@
+/* Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;700&family=Exo:wght@600;700&display=swap");
+
+p {
+  font-size: 15px;
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 500;
+  color: #74787c;
+}
+/* Header  */
+header {
+  box-shadow: 0px 1px 10px 1px #00000040;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+header .navbar .container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+header .navbar .navbar-brand img {
+  width: 180px;
+}
+.main-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+header .nav-item .nav-link {
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  transition: all 0.5s;
+}
+header .nav-item .nav-link:hover {
+  color: #0a5292;
+}
+/* Banner */
+.banner {
+  position: relative;
+  z-index: 20;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 22;
+}
+.banner-text h1 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  line-height: 60px;
+}
+.banner-text-disply {
+  display: block;
+}
+.bgcolor-banner {
+  background-color: #4963ec;
+  padding: 0 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.bgcolor-banner:hover {
+  background-color: #fec810;
+}
+
+/* About Us  */
+section {
+  padding: 100px 0;
+}
+.sub-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  padding: 5px 0;
+  margin-bottom: 25px;
+}
+.sub-heading-bg {
+  background-color: #4963ec;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+}
+.main-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.main-heading-bg {
+  color: #fec810;
+}
+.h-disply {
+  display: block;
+}
+.about-us-content p {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 16px;
+  padding-right: 60px;
+}
+.about-img {
+  width: 80%;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+}
+.about-right {
+  position: relative;
+}
+.about-right::before {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  width: 4px;
+  height: 40%;
+  content: "";
+  background-color: #4963ec;
+  border-radius: 20px;
+}
+.about-right::after {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  width: 4px;
+  height: 70%;
+  content: "";
+  background-color: #4963ec;
+  border-radius: 20px;
+}
+.yr-exp-card {
+  display: inline-block;
+  border: 1px solid #4963ec;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: #fff;
+  bottom: 10px;
+  left: 20px;
+}
+.yr-exp-card h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 34px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+.yr-exp-card h6 {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* Service */
+.service-main {
+  background-image: url("../images/our-service-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.service-main h4 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.service-main h3 {
+  font-family: Exo;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.service-main h3 span {
+  color: #fec810;
+}
+.service-main p {
+  font-family: Albert Sans;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  padding: 0 18%;
+  margin-bottom: 50px;
+}
+.card-service {
+  width: 265px;
+  margin: auto;
+  border: 1px solid;
+  background: rgba(255, 255, 255, 0.09);
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ffffff2d;
+  height: 365px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 20px;
+  transition: all 0.5s;
+}
+.card-service:hover {
+  background: rgba(255, 255, 255, 0.121);
+  border: 1px solid #ffffff1d;
+}
+.card-service h4 {
+  font-family: Exo;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+.card-service a {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 90px;
+  transition: all 0.5s;
+}
+.card-service a span {
+  transition: all 0.5s;
+}
+.card-service a:hover span {
+  margin-left: 5px;
+}
+.card-service a:hover {
+  color: #c3c3c3;
+}
+
+/* Working Process */
+.working-main h1 {
+  font-family: Exo;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 63.79px;
+}
+.working-main h1 span {
+  display: block;
+}
+.working-col a {
+  text-decoration: none;
+}
+.service-card-fluid{
+  padding-top: 50px;
+}
+.card-working img{
+  border-radius: 10px;
+}
+.card-working h5 {
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 20px;
+}
